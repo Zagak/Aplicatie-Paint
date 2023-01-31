@@ -1,0 +1,128 @@
+#canvasuMeu{
+    user-select: none;
+    background-color: aquamarine;
+    
+    border: 5px inset black;
+    background-color: rgb(217, 173, 29);
+    align-self: flex-start;
+    justify-self: center;
+    display: inline-flex;
+    position:absolute;
+    flex-wrap: wrap;
+    
+    
+} 
+
+#marele-container{
+    display:inline-flex;
+    width:100%;
+    height:100%;
+    flex-wrap: wrap;
+    position: absolute;
+    
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-flex;
+
+
+    
+}
+
+#test{
+    border: 2px solid black;
+    height: auto;
+    width: 60px;
+    position: absolute;
+    left: 250px;
+    top: 50px;
+    
+    transform-origin: 0% 0%;
+    
+}
+
+
+.forma{
+    position: absolute;
+    border: 2px solid black;
+    outline-style:dashed;
+    opacity: 0.5;
+    width: 0%;
+    height:0%;
+    transform-origin: 0% 0%;
+    
+}
+
+
+table{
+    border: 1px inset black;
+    align-self: flex-end;
+    flex-wrap:wrap;
+    position:absolute;
+    visibility: hidden;
+    bottom:50px;
+    
+}
+
+td{
+    border: 5px inset rebeccapurple;
+    width:50px;
+    height:50px;
+}
+
+#salvare{
+    margin-left: 80px;
+}
+
+#forme_label{
+    text-decoration: underline;
+}
+
+.button{
+    margin-left: 10px;
+}
+
+
+
+#meniu{
+    display:inline-flex;
+    align-self: flex-end;
+    flex-wrap:wrap;
+    position:absolute;
+    bottom:300px;
+    
+
+}
+
+ol{
+    background-color: burlywood;
+    
+}
+li{
+    color:white;
+    border-bottom-color: white;
+    border-bottom-width: 2px;
+    border-bottom-style: groove;
+    padding: 2px;
+}
+
+html{
+    width:100%;
+    height:100%;
+}
+
+body{
+    width:100%;
+    height:100%;
+}
+
+#lista_container{
+    width:15%;
+    height:30%;
+    position: absolute;
+}

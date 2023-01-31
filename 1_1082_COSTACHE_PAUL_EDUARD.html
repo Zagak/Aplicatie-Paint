@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="1_1082_COSTACHE_PAUL_EDUARD.css" />
+
+</head>
+
+<body>
+
+    <div id="marele-container">
+        <div id="container">
+
+
+            <canvas id="canvasuMeu" width='600' height='325' style="background-color:#0000FF"></canvas>
+
+
+            <div id="meniu">
+                    <button class="button" id="background" onclick="ChangeVisibility(getElementById('tabel_culori'),this.id)">Background</button>
+
+                    <button class="button" onclick="ChangeVisibility(getElementById('tabel_forme'),this.id)" id="forma">Forma</button>
+               
+                    <button class="button" onclick="ChangeVisibility(getElementById('tabel_culori'),this.id)" id="culoare">Culoare</button>
+               
+                    <input class="button"id="ranger" type='range' min='0' max='10' value='2' id='grosime'>
+
+                    <button  class="button" onclick="SalvarePNG()" id="salvare">Salvare</button>
+
+            </div>
+
+            <table id="tabel_forme" class="tabel">
+                <tr>
+                    <td id="t_elipsa">
+                        <Image src="media/elipsa.png" width="60px" height="60px"></Image>
+                    </td>
+                    <td id="t_dreptunghi">
+                        <Image src="media/dreptunghi.png" width="60px" height="60px"></Image>
+                    </td>
+                
+                
+                    <td id="t_linie">
+                        <Image src="media/linie.png" width="60px" height="60px"></Image>
+                    </td>
+                </tr>
+            </table>
+
+            <table id="tabel_culori" class="tabel">
+                <tr>
+                    <td class="td" onclick="Coloreaza(this)" style="background:#FFFFFF"></td>
+                    <td class="td" onclick="Coloreaza(this)" style="background:#FFF000"></td>
+                    <td class="td" onclick="Coloreaza(this)" style="background:#000000"></td>
+                </tr>
+                <tr>
+                    <td class="td" onclick="Coloreaza(this)" style="background:#FF0000"></td>
+                    <td class="td" onclick="Coloreaza(this)" style="background:#00FF00"></td>
+                    <td class="td" onclick="Coloreaza(this)" style="background:#0000FF"></td>
+                </tr>
+                <tr>
+                    <td class="td" onclick="Coloreaza(this)" style="background:#FFAE00"></td>
+                    <td class="td" onclick="Coloreaza(this)" style="background:#DD00FF"></td>
+                    <td class="td" onclick="Coloreaza(this)" style="background:#00FFEE"></td>
+
+                </tr>
+            </table>
+        </div>
+
+        <div id="lista_container">
+        <label for="lista_container" id="forme_label" >FORME :</label>
+        <ol id="lista"></ol>
+        
+        </div>
+
+    </div>
+    <script src="1_1082_COSTACHE_PAUL_EDUARD.js" type="text/javascript"></script>
+</body>
+
+</html>
